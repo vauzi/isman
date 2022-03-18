@@ -1,19 +1,24 @@
 {
-  "name": "package.json",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vauzi/sipenjul.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vauzi/sipenjul/issues"
-  },
-  "homepage": "https://github.com/vauzi/sipenjul#readme"
+    "name": "fxmyportfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx tailwindcss -i ./main.css -o ./Output.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vauzi/sipenjul.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vauzi/sipenjul/issues"
+    },
+    "homepage": "https://github.com/vauzi/sipenjul#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.4",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.23"
+    }
 }
