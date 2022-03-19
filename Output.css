@@ -1321,6 +1321,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:bottom-0 {
+    bottom: 0px;
+  }
+
   .sm\:ml-20 {
     margin-left: 5rem;
   }
@@ -1365,6 +1369,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:mx-60 {
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
   }
 
   .md\:flex {
